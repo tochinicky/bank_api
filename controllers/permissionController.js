@@ -17,7 +17,7 @@ const createPermissions = async () => {
       }
     }
   } catch (error) {
-    console.error("Error creating permissions:", error);
+    console.error("Error creating permissions:", error.message);
   }
 };
 
